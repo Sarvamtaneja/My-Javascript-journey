@@ -15,13 +15,13 @@ if (a > b) {
 
 //challenge
 
-let password;
+let password = "Sarvam" ;
 
-if (password == 8) {
+if (password.length == 8) {
     console.log("Welcome");
-} else if (password < 8) {
+} else if (password.length < 8) {
     console.log("Password is too short");
-} else if (password > 8) {
+} else if (password.length > 8) {
     console.log("Password is too long");
     console.log("password should be 8 characters");
 } else {
