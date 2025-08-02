@@ -1,0 +1,11 @@
+{  
+    "name" : "Raju Batliwala",
+    "age" : 19,
+    "gmail" : "rjbatliwala@gmail.com",
+    "isLearningJS": true,
+    "hobbies": ["coding","listening music"],
+    "address": {
+        "city": "New york",
+        "country": "USA"
+    }
+}
