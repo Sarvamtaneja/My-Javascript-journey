@@ -18,6 +18,8 @@ while (i <= 5) {
         i++
     }
 }
+// but the variable declared in for loop is already inside a block i.e it is in local scope.
+
 
 // challenge
 {
