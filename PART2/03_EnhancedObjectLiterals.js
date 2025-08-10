@@ -26,3 +26,15 @@ function user2 (name,age,work) {
 
 const Alex = user2("Alex",18,"Designer");
 console.log(Alex.intro());
+
+// Challenge
+function getPersonES6 (name,age,height){
+    return{
+        name,
+        age,
+        height
+    }
+}; 
+
+const result = getPersonES6("John",23,183);
+console.log(result);
