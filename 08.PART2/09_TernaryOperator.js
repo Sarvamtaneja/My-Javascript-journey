@@ -17,3 +17,11 @@ function passwordChecker(ps){
 
 const res = passwordChecker(password);
 console.log(res);
+
+
+let age = 18;
+// let adult = age>=18 && "adult"; //&& helps when the condition is true
+// let adult = age>=18 || "adult";  
+
+let adult = age>=18 ? "adult" : "not an adult";
+console.log(adult);
